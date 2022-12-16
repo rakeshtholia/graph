@@ -1,0 +1,208 @@
+
+{
+    "nodes" : [
+      {
+        "id": "node-1",
+        "type": "textUpdater",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "data": {
+          "value": 123,
+          "title": "User"
+        },
+        "width": 106,
+        "height": 106
+      },
+      {
+        "id": "node-2",
+        "type": "textUpdater",
+        "position": {
+          "x": 297.56959938550517,
+          "y": 1.2152003072474216
+        },
+        "data": {
+          "value": 1234,
+          "title": "User-2"
+        },
+        "width": 106,
+        "height": 106,
+        "selected": false,
+        "positionAbsolute": {
+          "x": 297.56959938550517,
+          "y": 1.2152003072474216
+        },
+        "dragging": false
+      },
+      {
+        "id": "node-3",
+        "type": "textUpdater",
+        "position": {
+          "x": 292.25457365141483,
+          "y": -158.9157048180479
+        },
+        "data": {
+          "value": 1234,
+          "title": "User-3"
+        },
+        "width": 106,
+        "height": 106,
+        "selected": false,
+        "positionAbsolute": {
+          "x": 292.25457365141483,
+          "y": -158.9157048180479
+        },
+        "dragging": false
+      },
+      {
+        "id": "node-4",
+        "type": "textUpdater",
+        "position": {
+          "x": 297.17080219056453,
+          "y": 158.93451354047374
+        },
+        "data": {
+          "value": 1234,
+          "title": "User-4"
+        },
+        "width": 106,
+        "height": 106,
+        "selected": false,
+        "positionAbsolute": {
+          "x": 297.17080219056453,
+          "y": 158.93451354047374
+        },
+        "dragging": false
+      },
+      {
+        "id": "node-5",
+        "type": "textUpdater",
+        "position": {
+          "x": 564.084857883805,
+          "y": 74.53271893721993
+        },
+        "data": {
+          "value": 1234,
+          "title": "User-5"
+        },
+        "width": 106,
+        "height": 106,
+        "selected": false,
+        "positionAbsolute": {
+          "x": 564.084857883805,
+          "y": 74.53271893721993
+        },
+        "dragging": false
+      },
+      {
+        "id": "node-6",
+        "type": "textUpdater",
+        "position": {
+          "x": 567.095945266704,
+          "y": 282.8970511816648
+        },
+        "data": {
+          "value": 1234,
+          "title": "User-6"
+        },
+        "width": 106,
+        "height": 106,
+        "selected": false,
+        "positionAbsolute": {
+          "x": 567.095945266704,
+          "y": 282.8970511816648
+        },
+        "dragging": false
+      },
+      {
+        "id": "node-7",
+        "type": "textUpdater",
+        "position": {
+          "x": 798.7847996927526,
+          "y": 279.3415947767938
+        },
+        "data": {
+          "value": 1234,
+          "title": "User-7"
+        },
+        "width": 106,
+        "height": 106,
+        "selected": true,
+        "positionAbsolute": {
+          "x": 798.7847996927526,
+          "y": 279.3415947767938
+        },
+        "dragging": false
+      }
+    ],
+
+    "edges" : [
+      {
+          "id": "edges-e1-2",
+          "source": "node-1",
+          "target": "node-2",
+          "label": "Associated with",
+          "className": "normal-edge",
+          "type": "custom",
+          "markerEnd": {
+              "type": "MarkerType.Arrow"
+          }
+      },
+      {
+          "id": "edges-e1-3",
+          "source": "node-1",
+          "target": "node-3",
+          "label": "Associated to",
+          "className": "normal-edge",
+          "type": "straight",
+          "markerEnd": {
+              "type": "MarkerType.Arrow"
+          }
+      },
+      {
+          "id": "edges-e1-4",
+          "source": "node-1",
+          "target": "node-4",
+          "label": "Associated to",
+          "className": "normal-edge",
+          "type": "straight",
+          "markerEnd": {
+              "type": "MarkerType.Arrow"
+          }
+      },
+      {
+          "id": "edges-e4-5",
+          "source": "node-4",
+          "target": "node-5",
+          "label": "Associated to",
+          "className": "normal-edge",
+          "type": "straight",
+          "markerEnd": {
+              "type": "MarkerType.Arrow"
+          }
+      },
+      {
+          "id": "edges-e4-6",
+          "source": "node-4",
+          "target": "node-6",
+          "label": "Associated to",
+          "className": "normal-edge",
+          "type": "straight",
+          "markerEnd": {
+              "type": "MarkerType.Arrow"
+          }
+      },
+      {
+          "id": "edges-e6-7",
+          "source": "node-6",
+          "target": "node-7",
+          "label": "Associated to",
+          "className": "normal-edge",
+          "type": "straight",
+          "markerEnd": {
+              "type": "MarkerType.Arrow"
+          }
+      }
+  ]
+ }
